@@ -25,7 +25,7 @@ function Form() {
 
       <form onSubmit={handleSubmit}>
         <div>
-          <label>Name:</label>
+          <label>Name: </label>
           <input
             type="text"
             value={name}
@@ -35,7 +35,7 @@ function Form() {
 
           <br /><br />
 
-          <label>Email:</label>
+          <label>Email: </label>
           <input
             type="text"
             value={email}
@@ -45,7 +45,7 @@ function Form() {
 
           <br /><br />
 
-          <label>Password:</label>
+          <label>Password: </label>
           <input
             type="password"
             value={password}
@@ -70,4 +70,4 @@ function Form() {
   );
 }
 
-export default Form;
+export default Form;         
